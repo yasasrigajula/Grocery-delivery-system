@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Your Order</title>
+<meta charset="utf-8" />
+<link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+<script type="text/javascript" src="jquery.store.js"></script>
+</head>
+
+<body id="checkout-page">
+
+<div id="site">
+	<header id="masthead">
+		
+	</header>
+	<div id="content">
+		<h1>Your Order</h1>
+			<table id="checkout-cart" class="shopping-cart">
+			  <thead>
+				<tr>
+					<th scope="col">Item</th>
+					<th scope="col">Qty</th>
+					<th scope="col">Price</th>
+				</tr>
+			  </thead>
+			  <tbody>
+			  
+			  </tbody>
+			</table>
+		 <div id="pricing">
+			
+			<p id="shipping">
+				<strong>Shipping</strong>: <span id="sshipping"></span>
+			</p>
+			
+			<p id="sub-total">
+				<strong>Total</strong>: <span id="stotal"></span>
+			</p>
+		 </div>
+		 
+		 <div id="user-details">
+		 	<h2>click submit to place your order</h2>
+		 	
+		 </div>
+		 
+		 
+		<div class = "popup" id ="popup - 1">
+                                       <div class="overlay"></div>
+                                       <div class="content">
+                                            <div class="close-btn" onclick="togglepopup()">&times;
+                                        </div>
+                                               <h1>YOUR ORDER HAS BEEN PLACED</h1>
+                                        </div>
+                                 </div>
+                                        
+	                 <button onclick="togglepopup()" style="margin-left: 45%; background-color:rgb(65, 204, 223); border-color:rgb(218, 226, 230); color:rgb(1, 12, 14) ;width: 100px;height: 50px; " >submit</button>
+</form>
+		 
+		 
+	</div>
+	
+	
+
+</div>
+
+<footer id="site-info">
+		HAPPY SHOPPING; 
+	</footer>
+
+</body>
+</html>	
+
+   
